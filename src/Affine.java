@@ -75,8 +75,10 @@ public class Affine {
 			for (k = 0; k < ac.length; k++){
 				if (ac[k].equals(codeArray[i])){
 					m = k;
+					/*if k is not 0
 					k = (10*k) +b;
 					k = k % 29;
+					*/
 					m = k;
 					
 
